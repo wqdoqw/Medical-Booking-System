@@ -1,0 +1,171 @@
+body,html{
+    height:100%;
+}
+#upcomingEvents{
+    margin-top: 50px;
+}
+
+#wrapper {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    position: absolute;
+    left: 250px;
+    width: 300px;
+    min-height:100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+#hr-top{
+   
+}
+
+#top-left{
+    float:left;
+    margin:10px;
+}
+
+#top-right{
+    font-family: 'Lobster', cursive;
+    float:left;
+    margin:10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px
+}
+
+#showusername{
+    font-size: 20px;
+    color:black;
+}
+
+#continue-logout{
+    font-size: 25px;
+    margin-right: 250px;
+}
+
+#not-continue-logout{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* clear fix */
+.clearfix {
+    border:2px solid #6a2885;
+    clear: both;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(57, 197, 187);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.col-md-2{
+    margin-top: 10px;    
+}
+
+.modal-title{
+    font-size: 30px;
+}
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
