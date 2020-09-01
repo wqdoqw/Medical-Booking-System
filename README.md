@@ -1,6 +1,13 @@
 # Medical-Booking-System
 Used php, HTML, CSS, JS, MySQL
 
+The main purpose of this website is to give an opportunity for the clients who need medical assistants can book for a doctor’s appointment.
+
+## Contributors
+1. Sang Ik Park
+2. Dixun Tan
+3. Qi Lu
+
 # Features
 
 ## PDF view using fpdf
