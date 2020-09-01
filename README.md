@@ -37,5 +37,5 @@ Used php, HTML, CSS, JS, MySQL
 ![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/10.PNG)
 
 # Security Features
-Used Captcha.\
-Used password_hash so that the passwords stored in MySQL database is hashed. 
+1. Used Captcha.
+2. Used password_hash so that the passwords stored in MySQL database is hashed. 
