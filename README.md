@@ -26,15 +26,12 @@ The main purpose of this website is to give an opportunity for the clients who n
 ![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/5.PNG)
 
 ## Confirm bookings
-![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/5.PNG)
-
-## Captcha
 ![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/6.PNG)
 
-## View bookings
+## Captcha
 ![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/7.PNG)
 
-## Search patients
+## View bookings & search patients
 ![alt text](https://github.com/wqdoqw/Medical-Booking-System/blob/master/htdocs/Website%20image/8.PNG)
 
 ## Booking detail
